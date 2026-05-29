@@ -1,96 +1,27 @@
-# 👨🏻‍💻 Kaue Soares
+# 💻 Olá, eu sou o Kauê Soares de Oliveira!
 
-**`Desenvolvedora FrontEnd`**
-
-Me chamo Kaue S. Oliveira, tenho 22 anos e sou natural de Sao Paulo. Concluí o ensino médio na ETEC, com o curso técnico em Automaçao Industrial. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na ESTACIO. Sou apaixonado por tecnologia e compartilho meu conhecimento através do meu LinkedIn "[Kaue Soares](https://www.linkedin.com/in/iamkaue/)", onde posto meus projetos e ideias.
-
-<p align="left">
-    <a href="https://github.com/iamKwe?tab=repositories&sort=stargazers">
-        <img 
-            alt="Total de estrelas" 
-            title="Total de estrelas GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/stars/iamKwe?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
-        />
-    </a>
-    <a href="https://github.com/iamKwe?tab=followers">
-        <img 
-            alt="Seguidores" 
-            title="Me siga no GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/followers/iamKwe?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
-        />
-    </a>
-</p>
+Seja bem-vindo ao meu hub principal de projetos. Aqui você encontrará repositórios focados em desenvolvimento backend, automações, arquitetura de banco de dados e soluções técnicas estruturadas. Atualmente, sou estudante de Análise e Desenvolvimento de Sistemas (ADS), focado em criar softwares eficientes, limpos e escaláveis.
 
 ---
 
-### 🤖 Linguagens e Tecnologias
+### 🛠️ Tecnologias e Ferramentas
 
-<img 
-    align="left" 
-    alt="HTML"
-    title="HTML" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="CSS" 
-    title="CSS"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="React"
-    title="React" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Git" 
-    title="Git"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Python" 
-    title="Python"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
+* **Linguagens de Programação:** JavaScript
+* **Ambientes & Sistemas:** Linux & Windows, Git
 
-<br/>
-<br/>
+---
 
-### 📊 Estatísticas
+### 🚀 Projetos em Destaque
 
-<p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="200" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=iamKwe&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
-<img 
-      align="left" 
-      alt="GitHub Stats" 
-      height="200" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamKwe&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
-  />
-</p>
+#### 1. **Cloud Store** ☁
+* **Descrição:** Uma API RESTful completa desenvolvida para resolver [descreva brevemente o problema solucionado ou o objetivo do app].
+* **Tecnologias:** JavaScript, HTML, CSS.
+* **Destaques:** Arquitetura limpa, responsiva, moderna, funcional.
+* **Acesse o Repositório:** `Portfólio/Projetos Pessoais/Site - Cloud Store`
+
+---
+
+### 📫 Conecte-se Comigo
+
+* **LinkedIn:** [Kauê Soares](https://linkedin.com/in/iamkwe)
+* **E-mail:** `office.kauesoares@gmail.com`

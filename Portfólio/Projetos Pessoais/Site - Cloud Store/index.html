@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cloud Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="cloud-icon" viewBox="0 0 16 16">
+                <path
+                    d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383" />
+            </svg>Cloud Store</div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="img/apple-watch.png" alt="Apple Watch">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Novo Lançamento</p>
+                    <p class="product-name">Apple Watch Series 10</p>
+                    <p class="description">O Apple Watch Series 10 traz inovação e desempenho excepcionais para sua
+                        experiência de smartwatch.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="product-img">
+                    <img src="img/air-pods.png" alt="Air Pods">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Som Premium</p>
+                    <p class="product-name">Air Pods Pro</p>
+                    <p class="description">Os Air Pods Pro oferecem uma experiência de áudio imersiva com cancelamento
+                        de ruído avançado.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="product-img">
+                    <img src="img/vision-pro.png" alt="Vision Pro">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Alta Performance</p>
+                    <p class="product-name">Vision Pro</p>
+                    <p class="description">O Vision Pro é o headset de realidade aumentada mais avançado da Apple.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-left-fill"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                </svg>
+
+            </button>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+
+            </button>
+
+        </div>
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>

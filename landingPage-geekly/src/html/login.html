@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/login.css">
+  <title>Geekly | Login</title>
+  <link rel="icon" type="image/png" href="../images/gkicon.png" sizes="32x32">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="menu-wrapper">
+      <button class="hamburger" id="hamburger" alt="menu-wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="menu-box">
+        <a href="../../index.html#start" class="menu-link">Start</a>
+        <a href="../../index.html#about" class="menu-link">About</a>
+        <a href="../../index.html#contact" class="menu-link">Contact</a>
+      </div>
+      <nav class="menu" id="menu">
+        <a href="login.html" class="wrapper-link">Login</a>
+        <a href="../../index.html#support" class="wrapper-link">Support</a>
+        <a href="../../index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon-exit"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z" />
+            <path fill-rule="evenodd"
+              d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z" />
+          </svg></a>
+      </nav>
+    </div>
+  </div>
+
+  <section class="auth-wall">
+    <div class="wallpaper"></div>
+    <div class="auth-box">
+
+      <div class="auth-tabs">
+        <button class="auth-tab active" id="tabLogin" type="button">Login</button>
+        <button class="auth-tab" id="tabRegister" type="button">Register</button>
+      </div>
+
+      <form class="auth-form" id="loginForm">
+        <h1>Welcome back</h1>
+        <p class="auth-sub">Sign in to keep track of your favorite manga and comics.</p>
+
+        <div class="field">
+          <label for="loginEmail">Email</label>
+          <input type="email" id="loginEmail" placeholder="your@email.com" required>
+        </div>
+
+        <div class="field">
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" placeholder="Enter your password" required minlength="6">
+        </div>
+
+        <a href="#" class="auth-forgot">Forgot your password?</a>
+
+        <button type="submit" class="auth-btn">Sign In</button>
+
+        <p class="auth-switch">Don't have an account? <a href="#" class="switch-link" data-target="register">Sign up</a>
+        </p>
+      </form>
+
+      <form class="auth-form hidden" id="registerForm">
+        <h1>Create your account</h1>
+        <p class="auth-sub">Join Geekly and show what you like.</p>
+
+        <div class="field">
+          <label for="registerName">Name</label>
+          <input type="text" id="registerName" placeholder="Your name" required>
+        </div>
+
+        <div class="field">
+          <label for="registerEmail">Email</label>
+          <input type="email" id="registerEmail" placeholder="your@email.com" required>
+        </div>
+
+        <div class="field">
+          <label for="registerPassword">Password</label>
+          <input type="password" id="registerPassword" placeholder="Create a password" required minlength="6">
+        </div>
+
+        <div class="field">
+          <label for="registerConfirm">Confirm password</label>
+          <input type="password" id="registerConfirm" placeholder="Repeat your password" required minlength="6">
+        </div>
+
+        <button type="submit" class="auth-btn">Create Account</button>
+
+        <p class="auth-switch">Already have an account? <a href="#" class="switch-link" data-target="login">Sign in</a>
+        </p>
+      </form>
+
+    </div>
+    <div class="footer-box">
+      <footer>
+      <p class="footer-txt">&copy; Desenvolvido por Kaue S.</p>
+    </footer>
+    </div>
+  </section>
+
+
+
+  <script src="../js/script.js"></script>
+  <script src="../js/login.js"></script>
+</body>
+
+</html>

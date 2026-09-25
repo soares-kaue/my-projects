@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/styles/styles.css">
+  <title>Geekly</title>
+  <link rel="icon" type="image/png" href="src/images/gkicon.png" sizes="32x32">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="menu-wrapper">
+      <button class="hamburger" id="hamburger" alt="menu-wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="menu-box">
+        <a href="#start" class="menu-link">Start</a>
+        <a href="#about" class="menu-link">About</a>
+        <a href="#contact" class="menu-link">Contact</a>
+      </div>
+      <nav class="menu" id="menu">
+        <a href="src/html/login.html" class="wrapper-link">Login</a>
+        <a href="#support" class="wrapper-link">Support</a>
+        <a href="#exit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon-exit"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z" />
+            <path fill-rule="evenodd"
+              d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z" />
+          </svg></img></a>
+      </nav>
+    </div>
+  </div>
+
+  <section class="background-wall" id="start">
+    <div class="wallpaper"></div>
+    <div class="title-start">
+      <h1>Here, you show what you like</h1>
+      <h2>Join Geekly and have fun!</h2>
+      <div class="btn-gk">
+        <button>START NOW</button>
+      </div>
+    </div>
+  </section>
+  </div>
+  <section class="background-solid" id="about">
+    <div class="gk-title-mh">
+      <h1>Mangás & HQs</h1>
+    </div>
+    <div class="shelf-controls">
+      <button id="scrollPrev" aria-label="Ver livros anteriores">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="5">
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+      </button>
+      <button id="scrollNext" aria-label="Ver próximos livros">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="5">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </button>
+    </div>
+
+      <div class="book-track" id="book-track">
+
+        <article class="book-card">
+          <div class="book-cover">
+            <span class="tag">Shōnen</span>
+            <span class="title">Mangá</span>
+            <button class="fav-btn" aria-pressed="false" aria-label="Guardar nos favoritos">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 21C12 21 4 15 4 9.5C4 6.5 6.5 4 9.5 4C11 4 12 5 12 5C12 5 13 4 14.5 4C17.5 4 20 6.5 20 9.5C20 15 12 21 12 21Z" />
+              </svg>
+            </button>
+          </div>
+          <div class="book-meta">
+            <p class="name">Naruto</p>
+            <p class="author">Masashi Kishimoto</p>
+            <p class="price">R$ 58,90</p>
+          </div>
+        </article>
+
+        <article class="book-card">
+          <div class="book-cover">
+            <span class="tag">Seinen</span>
+            <span class="title">Mangá</span>
+            <button class="fav-btn" aria-pressed="false" aria-label="Guardar nos favoritos">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 21C12 21 4 15 4 9.5C4 6.5 6.5 4 9.5 4C11 4 12 5 12 5C12 5 13 4 14.5 4C17.5 4 20 6.5 20 9.5C20 15 12 21 12 21Z" />
+              </svg>
+            </button>
+          </div>
+          <div class="book-meta">
+            <p class="name">Attack on Titan</p>
+            <p class="author">Hajime Isayama</p>
+            <p class="price">R$ 42,00</p>
+          </div>
+        </article>
+
+        <article class="book-card">
+          <div class="book-cover">
+            <span class="tag">Shōnen</span>
+            <span class="title">Mangá</span>
+            <button class="fav-btn" aria-pressed="false" aria-label="Guardar nos favoritos">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 21C12 21 4 15 4 9.5C4 6.5 6.5 4 9.5 4C11 4 12 5 12 5C12 5 13 4 14.5 4C17.5 4 20 6.5 20 9.5C20 15 12 21 12 21Z" />
+              </svg>
+            </button>
+          </div>
+          <div class="book-meta">
+            <p class="name">Kakegurui</p>
+            <p class="author">Homura Kawamoto</p>
+            <p class="price">R$ 42,00</p>
+          </div>
+        </article>
+
+        <article class="book-card">
+          <div class="book-cover">
+            <span class="tag">Comédia romântica</span>
+            <span class="title">Mangá</span>
+            <button class="fav-btn" aria-pressed="false" aria-label="Guardar nos favoritos">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 21C12 21 4 15 4 9.5C4 6.5 6.5 4 9.5 4C11 4 12 5 12 5C12 5 13 4 14.5 4C17.5 4 20 6.5 20 9.5C20 15 12 21 12 21Z" />
+              </svg>
+            </button>
+          </div>
+          <div class="book-meta">
+            <p class="name">Horimiya</p>
+            <p class="author">HERO</p>
+            <p class="price">R$ 42,00</p>
+          </div>
+        </article>
+
+        <article class="book-card">
+          <div class="book-cover">
+            <span class="tag">Shōnen</span>
+            <span class="title">Mangá</span>
+            <button class="fav-btn" aria-pressed="false" aria-label="Guardar nos favoritos">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 21C12 21 4 15 4 9.5C4 6.5 6.5 4 9.5 4C11 4 12 5 12 5C12 5 13 4 14.5 4C17.5 4 20 6.5 20 9.5C20 15 12 21 12 21Z" />
+              </svg>
+            </button>
+          </div>
+          <div class="book-meta">
+            <p class="name">Dragon Ball</p>
+            <p class="author">Akira Toriyama</p>
+            <p class="price">R$ 64,50</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+  <div class="contact-box">
+    <h1>Contact us</h1>
+    <p class="contact-sub">Questions, suggestions, or partnership inquiries? Send us a message!</p>
+    <form class="contact-form">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" required>
+      </div>
+
+      <div class="field">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="your@email.com" required>
+      </div>
+
+      <div class="field">
+        <label for="message">Messagem</label>
+        <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+      </div>
+
+      <button type="submit" class="contact-btn">Send</button>
+    </form>
+  </div>
+</section>
+
+  <footer>&copy; Desenvolvido por Kaue S.</footer>
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>

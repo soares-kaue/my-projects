@@ -1,17 +1,14 @@
-# 💻 Olá, eu sou o Kauê!
+# 📁 Meus Projetos
 
-Seja bem-vindo ao meu hub principal de projetos. Aqui você encontrará repositórios focados em desenvolvimento backend, automações, arquitetura de banco de dados e soluções técnicas estruturadas. Atualmente, sou estudante de Análise e Desenvolvimento de Sistemas (ADS), focado em criar softwares eficientes, limpos e escaláveis.
+Projetos de front-end que desenvolvo durante meus estudos em HTML, CSS e JavaScript.
 
----
+## Projetos
 
-### 🛠️ Tecnologias e Ferramentas
+| Projeto | Descrição | Tecnologias | Demo |
+|---|---|---|---|
+| [weatherForecast](./weatherForecast) | Mostra o clima da cidade que o usuário pesquisar, consumindo uma API de clima | HTML, CSS, JavaScript, API | [Ver online](#) |
+| [landingPage-geekly](./landingPage-geekly) | Landing page responsiva | HTML, CSS, JavaScript | [Ver online](#) |
 
-* **Linguagens de Programação:** JavaScript
-* **Ambientes & Sistemas:** Linux & Windows, Git
-
----
-
-### 📫 Conecte-se Comigo
-
-* **LinkedIn:** [Kauê Soares](https://linkedin.com/in/iamkwe)
-* **E-mail:** `office.kauesoares@gmail.com`
+## Contato
+- LinkedIn: [Kauê Soares](https://www.linkedin.com/in/soares-kaue)
+- E-mail: office.kauesoares@gmail.com

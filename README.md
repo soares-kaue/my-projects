@@ -11,16 +11,6 @@ Seja bem-vindo ao meu hub principal de projetos. Aqui você encontrará reposit�
 
 ---
 
-### 🚀 Projetos em Destaque
-
-#### 1. **Cloud Store** ☁
-* **Descrição:** Uma API RESTful completa desenvolvida para resolver [descreva brevemente o problema solucionado ou o objetivo do app].
-* **Tecnologias:** JavaScript, HTML, CSS.
-* **Destaques:** Arquitetura limpa, responsiva, moderna, funcional.
-* **Acesse o Repositório:** `Portfólio/Projetos Pessoais/Site - Cloud Store`
-
----
-
 ### 📫 Conecte-se Comigo
 
 * **LinkedIn:** [Kauê Soares](https://linkedin.com/in/iamkwe)
